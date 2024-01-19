@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    margin: 0px 250px 50px 250px;
+}
+h1{
+    text-align: center;
+    background-color: rgb(157, 157, 207);
+    font-family: sans-serif;
+    padding: 10px 0px;
+}
+
+.descricao{
+    text-align: center;
+}
+
+h2{
+    background-color: #ccc;
+    font-family: sans-serif;
+    padding: 10px 0px 10px 5px;
+    border-bottom: 2px solid rgb(72, 99, 250);
+
+}
+
+ul{
+    list-style-position: inside;
+    padding-left: 0;
+
+}
+
+.cargo{
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.empresa{
+    font-weight: bold;
+
+}
