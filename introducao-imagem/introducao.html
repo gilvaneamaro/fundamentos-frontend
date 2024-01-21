@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Trabalhando com imagens</title>
+    <meta author="Gilvane Amaro">
+    <meta description="Aplicando imagens na paginas através do html e css">
+    <style>
+        .img-logo{
+            width: 400px;
+        }
+        body{
+            background-image: url("./imagens/bg.jpg");
+            background-color: #ccc;
+            font-family: sans-serif;
+            font-size: 22px;
+            width: 700px;
+            margin: auto;
+
+            background-repeat: no-repeat;
+            background-attachment: fixed; /* Bloqueia que a imagem seja scrollada*/
+            background-position: right bottom;/* Posiona a imagem no canto direito e inferiror como parte principal*/
+            background-size: cover; /*mostra o tamanho total da imagem */
+
+        }
+        .img-html{
+            float: left;
+        }
+        .img-css{
+            float: right;
+        }
+        p{
+            text-align: justify;
+            line-height: 1,5;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>Trabalhando com imagens</h1>
+    <h2>Imagens Vetoriais vs bitmap</h2>
+    <img src="./imagens/logo_ser-frontend-ico.png" class="img-logo" alt="logotipo serfrontend">
+    <br>
+    <img src="./imagens/logo_ser-frontend-ico.svg" class="img-logo" alt="">
+
+    <h2>Imagens transparentes</h2>
+    <img src="./imagens/logo_ser-frontend-ico-transparente.gif" alt="">
+    <br>
+    <img src="./imagens/logo_ser-frontend-ico-transparente.png" alt="">
+
+    <h2>Gif animado</h2>
+    <img src="./imagens/walk.gif" alt="Pessoa andando">
+    <br>
+    <br>
+    <img src="./imagens/html5.png" alt="" class="img-html">
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque maxime laudantium tempore tenetur quae soluta nesciunt sunt voluptatem optio nobis, nam vitae ea dolorum, illum, doloribus officiis aliquam? Itaque, dolor?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam ratione atque aliquam, animi cupiditate enim voluptates magni perferendis, fuga, placeat quidem! Harum doloribus enim blanditiis aut reprehenderit numquam dolor, saepe sunt vero voluptate inventore nesciunt similique deleniti expedita praesentium nihil assumenda cumque architecto veniam id sint. Excepturi maiores ea fuga laboriosam, aliquid eveniet accusantium, illum mollitia quo sapiente dicta quibusdam impedit tenetur laborum quos praesentium ab dignissimos nihil magnam ipsum cumque natus. Commodi sunt asperiores veniam voluptates. Dolores, maiores?</p>
+    <img src="./imagens/css3.png" alt="" class="img-css">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque maxime laudantium tempore tenetur quae soluta nesciunt sunt voluptatem optio nobis, nam vitae ea dolorum, illum, doloribus officiis aliquam? Itaque, dolor?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At ipsam ratione atque aliquam, animi cupiditate enim voluptates magni perferendis, fuga, placeat quidem! Harum doloribus enim blanditiis aut reprehenderit numquam dolor, saepe sunt vero voluptate inventore nesciunt similique deleniti expedita praesentium nihil assumenda cumque architecto veniam id sint. Excepturi maiores ea fuga laboriosam, aliquid eveniet accusantium, illum mollitia quo sapiente dicta quibusdam impedit tenetur laborum quos praesentium ab dignissimos nihil magnam ipsum cumque natus. Commodi sunt asperiores veniam voluptates. Dolores, maiores?</p>
+    
+
+</body>
+</html>
