@@ -13,8 +13,8 @@ body{
 }
 
 .hero-content{
-    margin: 180px auto 0 auto;
-    width: 80%;
+    margin: auto;
+    width: 90%;
     text-align: center;
     color: white;
 }
@@ -28,7 +28,6 @@ body{
 .hero-content p{
     background-color: rgba(0, 0, 0, 0.7);
     font-size: 18px;
-    display: inline-block;
     padding: 16px;
     border-bottom: solid 2px white;
 }
@@ -60,13 +59,10 @@ body{
     text-decoration: underline;
 }
 
-section{
-    padding: 0;
-}
 .article-content article{
     width: 80%;
     background-color: #ffffff;
-    margin: 16px 0 0 80px;
+    margin: auto;
     padding: 5px;
 }
 .article-content h2{
